@@ -47,4 +47,10 @@ Given a line in FILE, for each REGEX:
 disjoin.py join|disjoin FILE1 FILE2
 ```
 
+#### In "join" mode:
+
 Combines lines in FILE1 and FILE2 that match on a key.  The key is always the first space-delimited word.  The key is only printed once per line, at the beginning of the line.
+
+#### In "disjoin" mode:
+
+Prints lines in FILE2 that do not match any lines in FILE1 by the same matching criteria as "join" mode.
