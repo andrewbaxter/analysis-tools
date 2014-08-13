@@ -1,7 +1,7 @@
 analysis-tools
 ==============
 
-Python scripts for analyzing and comparing various human readable data files.
+Python scripts for analyzing and comparing various human readable data files.  Tested with Python 2, and includes shebang lines for shell execution.
 
 ## cvs_x.py
 
@@ -33,7 +33,7 @@ Highlights characters that are different from the character on the previous line
 yank.py REGEXES... FILE
 ```
 
-Uses regexes to pull information from lines in FILE to the beginning of the line.  
+Uses [Python regexes](https://docs.python.org/2/library/re.html) to pull information from lines in FILE to the beginning of the line.  
 
 Given a line in FILE, for each REGEX: 
 
